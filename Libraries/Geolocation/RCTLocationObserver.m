@@ -152,6 +152,7 @@ RCT_EXPORT_MODULE()
     _usingSignificantChanges = YES;
   } else {
     [_locationManager startUpdatingLocation];
+    _usingSignificantChanges = NO;
   }
 }
 
